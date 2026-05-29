@@ -17,6 +17,11 @@ struct MangaAppApp: App {
                         Label("Favorites", systemImage: "heart.fill")
                     }
 
+                VoiceAgentView()
+                    .tabItem {
+                        Label("AI Chat", systemImage: "waveform.circle.fill")
+                    }
+
                 SettingView()
                     .tabItem {
                         Label("Settings", systemImage: "gearshape.fill")
