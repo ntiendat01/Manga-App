@@ -1,0 +1,15 @@
+.DS_Store
+**/.DS_Store
+
+.vscode/
+
+*.xcuserstate
+xcuserdata/
+*.xcuserdatad/
+
+.env
+.env.*
+*.xcconfig
+!*.example.xcconfig
+
+MangaApp/Config/Secrets.swift
