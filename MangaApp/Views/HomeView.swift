@@ -120,7 +120,7 @@ struct HomeView: View {
                 .font(.system(size: 40))
                 .foregroundStyle(.secondary)
 
-            Text("No results found")
+            Text("No results")
                 .font(.headline)
 
             Text("Try searching with different keywords.")
