@@ -5,8 +5,8 @@ struct HomeView: View {
     @State private var showScrollToTop = false
 
     private let columns = [
-        GridItem(.flexible(), spacing: 16),
-        GridItem(.flexible(), spacing: 16)
+        GridItem(.flexible(), spacing: 18),
+        GridItem(.flexible(), spacing: 18)
     ]
 
     var body: some View {
