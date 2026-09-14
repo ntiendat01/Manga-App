@@ -45,7 +45,7 @@ struct HomeView: View {
                                 .background(.thinMaterial, in: Circle())
                         }
                         .padding(.trailing, 16)
-                        .padding(.bottom, 24)
+                        .padding(.bottom, 28)
                         .opacity(0.7)
                         .transition(.opacity)
                     }
