@@ -85,7 +85,7 @@ struct HomeView: View {
     // MARK: - Subviews
 
     private var mangaGrid: some View {
-        LazyVGrid(columns: columns, spacing: 20) {
+        LazyVGrid(columns: columns, spacing: 24) {
             ForEach(viewModel.mangaList) { manga in
                 NavigationLink(value: manga) {
                     MangaCard(manga: manga)
